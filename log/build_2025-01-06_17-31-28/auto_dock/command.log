@@ -1,0 +1,2 @@
+Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tayya/Nav2_Dock_Robot/src/auto_dock -DCMAKE_INSTALL_PREFIX=/home/tayya/Nav2_Dock_Robot/install/auto_dock
+Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tayya/Nav2_Dock_Robot/src/auto_dock -DCMAKE_INSTALL_PREFIX=/home/tayya/Nav2_Dock_Robot/install/auto_dock

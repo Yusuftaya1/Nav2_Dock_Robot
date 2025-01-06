@@ -1,0 +1,50 @@
+[0.533s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/tayya/Nav2_Dock_Robot']
+[0.533s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/tayya/Nav2_Dock_Robot'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70b111e47310>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x70b111e462c0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x70b111e462c0>>, mixin_verb=('list',))
+[1.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.406s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tayya/Nav2_Dock_Robot'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extensions ['ignore', 'ignore_ament_install']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extension 'ignore'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extension 'ignore_ament_install'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extensions ['colcon_pkg']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extension 'colcon_pkg'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extensions ['colcon_meta']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extension 'colcon_meta'
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extensions ['ros']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extension 'ros'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extensions ['cmake', 'python']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extension 'cmake'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extension 'python'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extensions ['python_setup_py']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot) by extension 'python_setup_py'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/log) by extensions ['ignore', 'ignore_ament_install']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/log) by extension 'ignore'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/log) ignored
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extensions ['ignore', 'ignore_ament_install']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extension 'ignore'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extension 'ignore_ament_install'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extensions ['colcon_pkg']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extension 'colcon_pkg'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extensions ['colcon_meta']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extension 'colcon_meta'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extensions ['ros']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extension 'ros'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extensions ['cmake', 'python']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extension 'cmake'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extension 'python'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extensions ['python_setup_py']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src) by extension 'python_setup_py'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src/auto_dock) by extensions ['ignore', 'ignore_ament_install']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src/auto_dock) by extension 'ignore'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src/auto_dock) by extension 'ignore_ament_install'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src/auto_dock) by extensions ['colcon_pkg']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src/auto_dock) by extension 'colcon_pkg'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src/auto_dock) by extensions ['colcon_meta']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src/auto_dock) by extension 'colcon_meta'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src/auto_dock) by extensions ['ros']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tayya/Nav2_Dock_Robot/src/auto_dock) by extension 'ros'
+[1.467s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tayya/Nav2_Dock_Robot/src/auto_dock' with type 'ros.ament_cmake' and name 'auto_dock'
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

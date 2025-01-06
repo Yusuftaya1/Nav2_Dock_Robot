@@ -1,0 +1,41 @@
+[0.021s] Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tayya/Nav2_Dock_Robot/src/auto_dock -DCMAKE_INSTALL_PREFIX=/home/tayya/Nav2_Dock_Robot/install/auto_dock
+[0.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.395s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.401s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.413s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.541s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.871s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.942s] -- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.122s] -- Found nav2_bt_navigator: 1.1.17 (/opt/ros/humble/share/nav2_bt_navigator/cmake)
+[1.433s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.437s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.437s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.015s] -- Configuring done
+[2.026s] -- Generating done
+[2.035s] -- Build files have been written to: /home/tayya/Nav2_Dock_Robot/build/auto_dock
+[2.054s] Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tayya/Nav2_Dock_Robot/src/auto_dock -DCMAKE_INSTALL_PREFIX=/home/tayya/Nav2_Dock_Robot/install/auto_dock
+[2.058s] Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
+[2.137s] Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
+[2.159s] Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tayya/Nav2_Dock_Robot/build/auto_dock
+[2.172s] -- Install configuration: ""
+[2.173s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/package_run_dependencies/auto_dock
+[2.173s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/parent_prefix_path/auto_dock
+[2.173s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/ament_prefix_path.sh
+[2.174s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/ament_prefix_path.dsv
+[2.174s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/path.sh
+[2.174s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/path.dsv
+[2.175s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.bash
+[2.175s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.sh
+[2.175s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.zsh
+[2.175s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.dsv
+[2.176s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.dsv
+[2.176s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/packages/auto_dock
+[2.176s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/cmake/auto_dockConfig.cmake
+[2.176s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/cmake/auto_dockConfig-version.cmake
+[2.177s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.xml
+[2.180s] Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tayya/Nav2_Dock_Robot/build/auto_dock
