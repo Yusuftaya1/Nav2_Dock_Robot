@@ -1112,4 +1112,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/auto_dock_uninstall.dir/DependInfo.cmake"
+  "CMakeFiles/dock_test.dir/DependInfo.cmake"
   )

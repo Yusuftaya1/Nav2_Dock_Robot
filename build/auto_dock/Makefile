@@ -197,6 +197,43 @@ auto_dock_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auto_dock_uninstall.dir/build.make CMakeFiles/auto_dock_uninstall.dir/build
 .PHONY : auto_dock_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named dock_test
+
+# Build rule for target.
+dock_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dock_test
+.PHONY : dock_test
+
+# fast build rule for target.
+dock_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dock_test.dir/build.make CMakeFiles/dock_test.dir/build
+.PHONY : dock_test/fast
+
+src/dock_test.o: src/dock_test.cpp.o
+.PHONY : src/dock_test.o
+
+# target to build an object file
+src/dock_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dock_test.dir/build.make CMakeFiles/dock_test.dir/src/dock_test.cpp.o
+.PHONY : src/dock_test.cpp.o
+
+src/dock_test.i: src/dock_test.cpp.i
+.PHONY : src/dock_test.i
+
+# target to preprocess a source file
+src/dock_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dock_test.dir/build.make CMakeFiles/dock_test.dir/src/dock_test.cpp.i
+.PHONY : src/dock_test.cpp.i
+
+src/dock_test.s: src/dock_test.cpp.s
+.PHONY : src/dock_test.s
+
+# target to generate assembly for a file
+src/dock_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dock_test.dir/build.make CMakeFiles/dock_test.dir/src/dock_test.cpp.s
+.PHONY : src/dock_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... auto_dock_uninstall"
 	@echo "... uninstall"
+	@echo "... dock_test"
+	@echo "... src/dock_test.o"
+	@echo "... src/dock_test.i"
+	@echo "... src/dock_test.s"
 .PHONY : help
 
 
