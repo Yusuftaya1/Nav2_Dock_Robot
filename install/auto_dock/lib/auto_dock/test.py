@@ -7,8 +7,7 @@ from opennav_docking_msgs.action import DockRobot, UndockRobot
 class RobotController(Node):
     def __init__(self):
         super().__init__('robot_controller')
-        self.docking_client = ActionClient(self, DockRobot, 'dock_robot')
-
+        self.docking_client = ActionClient(self, DockRobot, 'dock_robot')        
 
     def dock_robot(self, dock_id=""):
         self.get_logger().info("Waiting for 'DockRobot' action server...")
@@ -16,19 +15,18 @@ class RobotController(Node):
             self.get_logger().warn('"DockRobot" action server not available, waiting...')
 
         goal_msg = DockRobot.Goal()
-        goal_msg.dock_type = "nova_carter_dock"
+        goal_msg.dock_type = "Saha_test_dock_plugin"
         goal_msg.use_dock_id = True
         goal_msg.dock_id = dock_id
         goal_msg.dock_pose.header.stamp     = self.get_clock().now().to_msg()
-        goal_msg.dock_pose.header.frame_id  = 'map' 
+        goal_msg.dock_pose.header.frame_id  = 'odom'
         goal_msg.dock_pose.pose.position.x  = 1.0
         goal_msg.dock_pose.pose.position.x  = 2.0
-        goal_msg.dock_pose.pose.orientation.z = 1.0
+        goal_msg.dock_pose.pose.position.z  = 0.0
+        goal_msg.dock_pose.pose.orientation.z = 0.0
 
         self.get_logger().info(f"Docking at ID: {dock_id}...")
-        send_goal_future = self.docking_client.send_goal_async(
-            goal_msg, feedback_callback=self._feedback_callback
-        )
+        send_goal_future = self.docking_client.send_goal_async(goal_msg, feedback_callback=self._feedback_callback)
         rclpy.spin_until_future_complete(self, send_goal_future)
         self.goal_handle = send_goal_future.result()
 

@@ -13,8 +13,8 @@ docking_server:
     dock_prestaging_tolerance: 0.5
 
     # Types of docks
-    dock_plugins: ['Saha_test_dock_plugin']
-    Saha_test_dock_plugin:
+    dock_plugins: ['nova_carter_dock']
+    nova_carter_dock:
       plugin: 'opennav_docking::SimpleChargingDock'  # Also 'opennav_docking::SimpleNonChargingDock'
       docking_threshold: 0.05
       staging_x_offset: -0.7
@@ -30,12 +30,13 @@ docking_server:
       external_detection_rotation_yaw: 0.0
       filter_coef: 0.1
 
-    # Dock instances
-    docks: ['test_home_dock']
-    test_home_dock:
-      type: 'Saha_test_dock_plugin'
+    #dock_database: /home/tayya/Nav2_Dock_Robot/src/auto_dock/params/dock_database.yaml
+
+    docks: ['test_dock']
+    test_dock:
+      type: 'nova_carter_dock'
       frame: map
-      pose: [0.0, 0.0, 0.0]
+      pose: [1.0, 2.0, 0.0]
       id: 'c67f50cb-e152-4720-85cc-5eb20bd85ce8'
 
     controller:
