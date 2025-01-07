@@ -2,5 +2,5 @@ docks:
   test_home_dock:
     type: "nova_carter_dock"
     frame: "map"
-    pose: [1.0, 2.0, 0.0]
+    pose: [2.0, 2.0, 0.0]
     id: 'c67f50cb-e152-4720-85cc-5eb20bd85ce8'

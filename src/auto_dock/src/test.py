@@ -3,7 +3,6 @@ import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
 from opennav_docking_msgs.action import DockRobot, UndockRobot
-from geometry_msgs.msg import PoseStamped
 
 class DockingTester(Node):
     def __init__(self):
@@ -22,7 +21,7 @@ class DockingTester(Node):
 
         goal_msg = DockRobot.Goal()
         goal_msg.use_dock_id = True
-        goal_msg.dock_id = dock_id
+        goal_msg.dock_id = dock_id 
 
         print('Docking to İD: ' + str(dock_id) + '...')
         send_goal_future = self.docking_client.send_goal_async(goal_msg,self._feedbackCallback)
@@ -42,11 +41,6 @@ class DockingTester(Node):
 def main():
     rclpy.init()
     tester = DockingTester()
-    dock_pose = PoseStamped()
-    dock_pose.header.stamp = tester.get_clock().now().to_msg()
-    dock_pose.header.frame_id = "base_link"
-    dock_pose.pose.position.x = 0.7
-    dock_pose.pose.position.y = 0.0
     dock_id = 'test_dock1'
     tester.dockRobot(dock_id=dock_id)
 
