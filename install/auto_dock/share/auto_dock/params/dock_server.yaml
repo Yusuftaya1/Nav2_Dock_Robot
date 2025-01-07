@@ -13,8 +13,8 @@ docking_server:
     dock_prestaging_tolerance: 0.5
 
     # Types of docks
-    dock_plugins: ['nova_carter_dock']
-    nova_carter_dock:
+    dock_plugins: ['Saha_test']
+    Saha_test:
       plugin: 'opennav_docking::SimpleChargingDock'  # Also 'opennav_docking::SimpleNonChargingDock'
       docking_threshold: 0.05
       staging_x_offset: -0.7
@@ -34,8 +34,8 @@ docking_server:
 
     docks: ['test_dock']
     test_dock:
-      type: 'nova_carter_dock'
-      frame: map
+      type: 'Saha_test'
+      frame: odom
       pose: [1.0, 2.0, 0.0]
       id: 'c67f50cb-e152-4720-85cc-5eb20bd85ce8'
 

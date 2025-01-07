@@ -15,14 +15,13 @@ class RobotController(Node):
             self.get_logger().warn('"DockRobot" action server not available, waiting...')
 
         goal_msg = DockRobot.Goal()
-        goal_msg.dock_type = "Saha_test_dock_plugin"
+        goal_msg.dock_type = "Saha_test"
         goal_msg.use_dock_id = True
         goal_msg.dock_id = dock_id
         goal_msg.dock_pose.header.stamp     = self.get_clock().now().to_msg()
-        goal_msg.dock_pose.header.frame_id  = 'odom'
+        goal_msg.dock_pose.header.frame_id  = 'map'
         goal_msg.dock_pose.pose.position.x  = 1.0
         goal_msg.dock_pose.pose.position.x  = 2.0
-        goal_msg.dock_pose.pose.position.z  = 0.0
         goal_msg.dock_pose.pose.orientation.z = 0.0
 
         self.get_logger().info(f"Docking at ID: {dock_id}...")
