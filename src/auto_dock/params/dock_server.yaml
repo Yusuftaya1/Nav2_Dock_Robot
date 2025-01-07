@@ -13,8 +13,8 @@ docking_server:
     dock_prestaging_tolerance: 0.5
 
     # Types of docks
-    dock_plugins: ['Saha_test']
-    Saha_test:
+    dock_plugins: ['Saha_test_dock']
+    Saha_test_dock:
       plugin: 'opennav_docking::SimpleChargingDock'  # Also 'opennav_docking::SimpleNonChargingDock'
       docking_threshold: 0.05
       staging_x_offset: -0.7
@@ -32,17 +32,17 @@ docking_server:
 
     #dock_database: /home/tayya/Nav2_Dock_Robot/src/auto_dock/params/dock_database.yaml
 
-    docks: ['test_dock','test_dock2']
-    test_dock:
-      type: 'Saha_test'
+    docks: ['test_dock1','test_dock2']
+    test_dock1:
+      type: 'Saha_test_dock'
       frame: map
-      pose: [1.0, 2.0, 0.0]
+      pose: [2.0, 4.0, 0.0]
       id: 'c67f50cb-e152-4720-85cc-5eb20bd85ce8'
     
     test_dock2:
-      type: 'Saha_test'
+      type: 'Saha_test_dock'
       frame: map
-      pose: [1.0, 3.0, 0.0]
+      pose: [3.0, 3.0, 0.0]
       id: 'c67y00cb-c367-4380-897vv-5eb15gd85ce8'
 
     controller:
