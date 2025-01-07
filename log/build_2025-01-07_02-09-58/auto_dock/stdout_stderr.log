@@ -1,0 +1,6 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dock_test.dir/src/dock_test.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dock_test.dir/build.make:76: CMakeFiles/dock_test.dir/src/dock_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dock_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

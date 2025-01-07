@@ -1,0 +1,32 @@
+[0.031s] Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target dock_test[0m
+[0.155s] [ 50%] [32mBuilding CXX object CMakeFiles/dock_test.dir/src/dock_test.cpp.o[0m
+[9.274s] [100%] [32m[1mLinking CXX executable dock_test[0m
+[10.384s] [100%] Built target dock_test
+[10.408s] Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
+[10.430s] Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/Nav2_Dock_Robot/build/auto_dock
+[10.448s] -- Install configuration: ""
+[10.449s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch
+[10.449s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch/dock_test.launch.py
+[10.449s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params
+[10.449s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_server.yaml
+[10.449s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_database.yaml
+[10.450s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/auto_dock/test.py
+[10.450s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/auto_dock/dock_test
+[10.452s] -- Set runtime path of "/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/auto_dock/dock_test" to ""
+[10.452s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/package_run_dependencies/auto_dock
+[10.453s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/parent_prefix_path/auto_dock
+[10.453s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/ament_prefix_path.sh
+[10.453s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/ament_prefix_path.dsv
+[10.454s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/path.sh
+[10.454s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/path.dsv
+[10.454s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.bash
+[10.454s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.sh
+[10.455s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.zsh
+[10.455s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.dsv
+[10.456s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.dsv
+[10.456s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/packages/auto_dock
+[10.456s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/cmake/auto_dockConfig.cmake
+[10.458s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/cmake/auto_dockConfig-version.cmake
+[10.459s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.xml
+[10.460s] Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/Nav2_Dock_Robot/build/auto_dock

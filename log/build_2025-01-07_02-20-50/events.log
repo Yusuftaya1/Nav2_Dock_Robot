@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.001848] (auto_dock) JobQueued: {'identifier': 'auto_dock', 'dependencies': OrderedDict()}
+[0.001968] (auto_dock) JobStarted: {'identifier': 'auto_dock'}
+[0.020002] (auto_dock) JobProgress: {'identifier': 'auto_dock', 'progress': 'cmake'}
+[0.021744] (auto_dock) JobProgress: {'identifier': 'auto_dock', 'progress': 'build'}
+[0.023372] (auto_dock) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tayya/Nav2_Dock_Robot/build/auto_dock', '--', '-j8', '-l8'], 'cwd': '/home/tayya/Nav2_Dock_Robot/build/auto_dock', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1360'), ('SYSTEMD_EXEC_PID', '1703'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2220'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/Nav2_Dock_Robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:5120'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1494,unix/Asus-Ubuntu:/tmp/.ICE-unix/1494'), ('INVOCATION_ID', 'f2f1c3094ec44c51bb34b94cf465869c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OEK0Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/Nav2_Dock_Robot/install/auto_dock:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:25df0869-317f-487b-8c23-fc2d35136305'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/Nav2_Dock_Robot/build/auto_dock'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/Nav2_Dock_Robot/install/auto_dock:/opt/ros/humble')]), 'shell': False}
+[0.083264] (auto_dock) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099476] (-) TimerEvent: {}
+[0.200004] (-) TimerEvent: {}
+[0.300568] (-) TimerEvent: {}
+[0.401081] (-) TimerEvent: {}
+[0.405391] (auto_dock) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.473325] (auto_dock) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.478968] (auto_dock) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.493211] (auto_dock) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.501223] (-) TimerEvent: {}
+[0.514824] (auto_dock) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.546321] (auto_dock) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601399] (-) TimerEvent: {}
+[0.624523] (auto_dock) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.627340] (auto_dock) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701547] (-) TimerEvent: {}
+[0.802066] (-) TimerEvent: {}
+[0.868824] (auto_dock) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902236] (-) TimerEvent: {}
+[0.989820] (auto_dock) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.002392] (-) TimerEvent: {}
+[1.061038] (auto_dock) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.102567] (-) TimerEvent: {}
+[1.203107] (-) TimerEvent: {}
+[1.218334] (auto_dock) StdoutLine: {'line': b'-- Found nav2_bt_navigator: 1.1.17 (/opt/ros/humble/share/nav2_bt_navigator/cmake)\n'}
+[1.303274] (-) TimerEvent: {}
+[1.403840] (-) TimerEvent: {}
+[1.459998] (auto_dock) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.463603] (auto_dock) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.504067] (-) TimerEvent: {}
+[1.604790] (-) TimerEvent: {}
+[1.705354] (-) TimerEvent: {}
+[1.805874] (-) TimerEvent: {}
+[1.906357] (-) TimerEvent: {}
+[2.006852] (-) TimerEvent: {}
+[2.107324] (-) TimerEvent: {}
+[2.207779] (-) TimerEvent: {}
+[2.210833] (auto_dock) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.307975] (-) TimerEvent: {}
+[2.330306] (auto_dock) StdoutLine: {'line': b'-- Generating done\n'}
+[2.347788] (auto_dock) StdoutLine: {'line': b'-- Build files have been written to: /home/tayya/Nav2_Dock_Robot/build/auto_dock\n'}
+[2.402521] (auto_dock) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dock_test\x1b[0m\n'}
+[2.408097] (-) TimerEvent: {}
+[2.444137] (auto_dock) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dock_test.dir/src/dock_test.cpp.o\x1b[0m\n'}
+[2.495379] (auto_dock) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dock_test\x1b[0m\n'}
+[2.508272] (-) TimerEvent: {}
+[2.608759] (-) TimerEvent: {}
+[2.709216] (-) TimerEvent: {}
+[2.809712] (-) TimerEvent: {}
+[2.910312] (-) TimerEvent: {}
+[3.010881] (-) TimerEvent: {}
+[3.111496] (-) TimerEvent: {}
+[3.212145] (-) TimerEvent: {}
+[3.312697] (-) TimerEvent: {}
+[3.413181] (-) TimerEvent: {}
+[3.513685] (-) TimerEvent: {}
+[3.614193] (-) TimerEvent: {}
+[3.714721] (-) TimerEvent: {}
+[3.815212] (-) TimerEvent: {}
+[3.915786] (-) TimerEvent: {}
+[4.016313] (-) TimerEvent: {}
+[4.116847] (-) TimerEvent: {}
+[4.217318] (-) TimerEvent: {}
+[4.317796] (-) TimerEvent: {}
+[4.418275] (-) TimerEvent: {}
+[4.518745] (-) TimerEvent: {}
+[4.619212] (-) TimerEvent: {}
+[4.719689] (-) TimerEvent: {}
+[4.820135] (-) TimerEvent: {}
+[4.920605] (-) TimerEvent: {}
+[5.021046] (-) TimerEvent: {}
+[5.121538] (-) TimerEvent: {}
+[5.222032] (-) TimerEvent: {}
+[5.322527] (-) TimerEvent: {}
+[5.423043] (-) TimerEvent: {}
+[5.523528] (-) TimerEvent: {}
+[5.624025] (-) TimerEvent: {}
+[5.724502] (-) TimerEvent: {}
+[5.825025] (-) TimerEvent: {}
+[5.925524] (-) TimerEvent: {}
+[6.025958] (-) TimerEvent: {}
+[6.126502] (-) TimerEvent: {}
+[6.227009] (-) TimerEvent: {}
+[6.327480] (-) TimerEvent: {}
+[6.427945] (-) TimerEvent: {}
+[6.528446] (-) TimerEvent: {}
+[6.628879] (-) TimerEvent: {}
+[6.729429] (-) TimerEvent: {}
+[6.829873] (-) TimerEvent: {}
+[6.930362] (-) TimerEvent: {}
+[7.030837] (-) TimerEvent: {}
+[7.131281] (-) TimerEvent: {}
+[7.231748] (-) TimerEvent: {}
+[7.332239] (-) TimerEvent: {}
+[7.432741] (-) TimerEvent: {}
+[7.533227] (-) TimerEvent: {}
+[7.633778] (-) TimerEvent: {}
+[7.734238] (-) TimerEvent: {}
+[7.834739] (-) TimerEvent: {}
+[7.935209] (-) TimerEvent: {}
+[8.035716] (-) TimerEvent: {}
+[8.136327] (-) TimerEvent: {}
+[8.236770] (-) TimerEvent: {}
+[8.337213] (-) TimerEvent: {}
+[8.437688] (-) TimerEvent: {}
+[8.538177] (-) TimerEvent: {}
+[8.638687] (-) TimerEvent: {}
+[8.739196] (-) TimerEvent: {}
+[8.839672] (-) TimerEvent: {}
+[8.940168] (-) TimerEvent: {}
+[9.040702] (-) TimerEvent: {}
+[9.141154] (-) TimerEvent: {}
+[9.241626] (-) TimerEvent: {}
+[9.342252] (-) TimerEvent: {}
+[9.442789] (-) TimerEvent: {}
+[9.543503] (-) TimerEvent: {}
+[9.644059] (-) TimerEvent: {}
+[9.744661] (-) TimerEvent: {}
+[9.845234] (-) TimerEvent: {}
+[9.945745] (-) TimerEvent: {}
+[10.046269] (-) TimerEvent: {}
+[10.146790] (-) TimerEvent: {}
+[10.247279] (-) TimerEvent: {}
+[10.347819] (-) TimerEvent: {}
+[10.448279] (-) TimerEvent: {}
+[10.548801] (-) TimerEvent: {}
+[10.649271] (-) TimerEvent: {}
+[10.749902] (-) TimerEvent: {}
+[10.850415] (-) TimerEvent: {}
+[10.951036] (-) TimerEvent: {}
+[11.051518] (-) TimerEvent: {}
+[11.152010] (-) TimerEvent: {}
+[11.252451] (-) TimerEvent: {}
+[11.352944] (-) TimerEvent: {}
+[11.453438] (-) TimerEvent: {}
+[11.553869] (-) TimerEvent: {}
+[11.654353] (-) TimerEvent: {}
+[11.754838] (-) TimerEvent: {}
+[11.855360] (-) TimerEvent: {}
+[11.955838] (-) TimerEvent: {}
+[12.056343] (-) TimerEvent: {}
+[12.156821] (-) TimerEvent: {}
+[12.257297] (-) TimerEvent: {}
+[12.357776] (-) TimerEvent: {}
+[12.458252] (-) TimerEvent: {}
+[12.558737] (-) TimerEvent: {}
+[12.659241] (-) TimerEvent: {}
+[12.759780] (-) TimerEvent: {}
+[12.860252] (-) TimerEvent: {}
+[12.960748] (-) TimerEvent: {}
+[13.061228] (-) TimerEvent: {}
+[13.161715] (-) TimerEvent: {}
+[13.262164] (-) TimerEvent: {}
+[13.362638] (-) TimerEvent: {}
+[13.463137] (-) TimerEvent: {}
+[13.563582] (-) TimerEvent: {}
+[13.664078] (-) TimerEvent: {}
+[13.764565] (-) TimerEvent: {}
+[13.865084] (-) TimerEvent: {}
+[13.965568] (-) TimerEvent: {}
+[14.066074] (-) TimerEvent: {}
+[14.166554] (-) TimerEvent: {}
+[14.267000] (-) TimerEvent: {}
+[14.367503] (-) TimerEvent: {}
+[14.467965] (-) TimerEvent: {}
+[14.568415] (-) TimerEvent: {}
+[14.668844] (-) TimerEvent: {}
+[14.769266] (-) TimerEvent: {}
+[14.869746] (-) TimerEvent: {}
+[14.970190] (-) TimerEvent: {}
+[15.070612] (-) TimerEvent: {}
+[15.171108] (-) TimerEvent: {}
+[15.271564] (-) TimerEvent: {}
+[15.371995] (-) TimerEvent: {}
+[15.472495] (-) TimerEvent: {}
+[15.572940] (-) TimerEvent: {}
+[15.673429] (-) TimerEvent: {}
+[15.773938] (-) TimerEvent: {}
+[15.874415] (-) TimerEvent: {}
+[15.974910] (-) TimerEvent: {}
+[16.075430] (-) TimerEvent: {}
+[16.175865] (-) TimerEvent: {}
+[16.276331] (-) TimerEvent: {}
+[16.376806] (-) TimerEvent: {}
+[16.477327] (-) TimerEvent: {}
+[16.577836] (-) TimerEvent: {}
+[16.678295] (-) TimerEvent: {}
+[16.778759] (-) TimerEvent: {}
+[16.879262] (-) TimerEvent: {}
+[16.979742] (-) TimerEvent: {}
+[17.080153] (-) TimerEvent: {}
+[17.180676] (-) TimerEvent: {}
+[17.281112] (-) TimerEvent: {}
+[17.381555] (-) TimerEvent: {}
+[17.482030] (-) TimerEvent: {}
+[17.582472] (-) TimerEvent: {}
+[17.682940] (-) TimerEvent: {}
+[17.783430] (-) TimerEvent: {}
+[17.883912] (-) TimerEvent: {}
+[17.984401] (-) TimerEvent: {}
+[18.084891] (-) TimerEvent: {}
+[18.185346] (-) TimerEvent: {}
+[18.285748] (-) TimerEvent: {}
+[18.386219] (-) TimerEvent: {}
+[18.486705] (-) TimerEvent: {}
+[18.587191] (-) TimerEvent: {}
+[18.687637] (-) TimerEvent: {}
+[18.788090] (-) TimerEvent: {}
+[18.888556] (-) TimerEvent: {}
+[18.989075] (-) TimerEvent: {}
+[19.089498] (-) TimerEvent: {}
+[19.189975] (-) TimerEvent: {}
+[19.290451] (-) TimerEvent: {}
+[19.390944] (-) TimerEvent: {}
+[19.491419] (-) TimerEvent: {}
+[19.591961] (-) TimerEvent: {}
+[19.692380] (-) TimerEvent: {}
+[19.792840] (-) TimerEvent: {}
+[19.893330] (-) TimerEvent: {}
+[19.993811] (-) TimerEvent: {}
+[20.094304] (-) TimerEvent: {}
+[20.194817] (-) TimerEvent: {}
+[20.295263] (-) TimerEvent: {}
+[20.395838] (-) TimerEvent: {}
+[20.496292] (-) TimerEvent: {}
+[20.596734] (-) TimerEvent: {}
+[20.697199] (-) TimerEvent: {}
+[20.797709] (-) TimerEvent: {}
+[20.898182] (-) TimerEvent: {}
+[20.998690] (-) TimerEvent: {}
+[21.099168] (-) TimerEvent: {}
+[21.199605] (-) TimerEvent: {}
+[21.300075] (-) TimerEvent: {}
+[21.400548] (-) TimerEvent: {}
+[21.501050] (-) TimerEvent: {}
+[21.601499] (-) TimerEvent: {}
+[21.701925] (-) TimerEvent: {}
+[21.802415] (-) TimerEvent: {}
+[21.902891] (-) TimerEvent: {}
+[22.003313] (-) TimerEvent: {}
+[22.103767] (-) TimerEvent: {}
+[22.204259] (-) TimerEvent: {}
+[22.304729] (-) TimerEvent: {}
+[22.405186] (-) TimerEvent: {}
+[22.505614] (-) TimerEvent: {}
+[22.606047] (-) TimerEvent: {}
+[22.706473] (-) TimerEvent: {}
+[22.806931] (-) TimerEvent: {}
+[22.907386] (-) TimerEvent: {}
+[23.007983] (-) TimerEvent: {}
+[23.108487] (-) TimerEvent: {}
+[23.208910] (-) TimerEvent: {}
+[23.309439] (-) TimerEvent: {}
+[23.409903] (-) TimerEvent: {}
+[23.510373] (-) TimerEvent: {}
+[23.610863] (-) TimerEvent: {}
+[23.711366] (-) TimerEvent: {}
+[23.811848] (-) TimerEvent: {}
+[23.912371] (-) TimerEvent: {}
+[24.012887] (-) TimerEvent: {}
+[24.113392] (-) TimerEvent: {}
+[24.213892] (-) TimerEvent: {}
+[24.314347] (-) TimerEvent: {}
+[24.414872] (-) TimerEvent: {}
+[24.515358] (-) TimerEvent: {}
+[24.615738] (-) TimerEvent: {}
+[24.716206] (-) TimerEvent: {}
+[24.816726] (-) TimerEvent: {}
+[24.917219] (-) TimerEvent: {}
+[25.017741] (-) TimerEvent: {}
+[25.118223] (-) TimerEvent: {}
+[25.218676] (-) TimerEvent: {}
+[25.319164] (-) TimerEvent: {}
+[25.419667] (-) TimerEvent: {}
+[25.520173] (-) TimerEvent: {}
+[25.620687] (-) TimerEvent: {}
+[25.721205] (-) TimerEvent: {}
+[25.821671] (-) TimerEvent: {}
+[25.922176] (-) TimerEvent: {}
+[26.022698] (-) TimerEvent: {}
+[26.123161] (-) TimerEvent: {}
+[26.223635] (-) TimerEvent: {}
+[26.324108] (-) TimerEvent: {}
+[26.424519] (-) TimerEvent: {}
+[26.525030] (-) TimerEvent: {}
+[26.625484] (-) TimerEvent: {}
+[26.725965] (-) TimerEvent: {}
+[26.826474] (-) TimerEvent: {}
+[26.926913] (-) TimerEvent: {}
+[27.027384] (-) TimerEvent: {}
+[27.127843] (-) TimerEvent: {}
+[27.228329] (-) TimerEvent: {}
+[27.328807] (-) TimerEvent: {}
+[27.429252] (-) TimerEvent: {}
+[27.529678] (-) TimerEvent: {}
+[27.630137] (-) TimerEvent: {}
+[27.730552] (-) TimerEvent: {}
+[27.831055] (-) TimerEvent: {}
+[27.931583] (-) TimerEvent: {}
+[28.032095] (-) TimerEvent: {}
+[28.132607] (-) TimerEvent: {}
+[28.233163] (-) TimerEvent: {}
+[28.333632] (-) TimerEvent: {}
+[28.434090] (-) TimerEvent: {}
+[28.534586] (-) TimerEvent: {}
+[28.635048] (-) TimerEvent: {}
+[28.735511] (-) TimerEvent: {}
+[28.836011] (-) TimerEvent: {}
+[28.936483] (-) TimerEvent: {}
+[29.036913] (-) TimerEvent: {}
+[29.137388] (-) TimerEvent: {}
+[29.237919] (-) TimerEvent: {}
+[29.338387] (-) TimerEvent: {}
+[29.438899] (-) TimerEvent: {}
+[29.539348] (-) TimerEvent: {}
+[29.639866] (-) TimerEvent: {}
+[29.740312] (-) TimerEvent: {}
+[29.840773] (-) TimerEvent: {}
+[29.941274] (-) TimerEvent: {}
+[30.041752] (-) TimerEvent: {}
+[30.142204] (-) TimerEvent: {}
+[30.242640] (-) TimerEvent: {}
+[30.343122] (-) TimerEvent: {}
+[30.443607] (-) TimerEvent: {}
+[30.544145] (-) TimerEvent: {}
+[30.644567] (-) TimerEvent: {}
+[30.745057] (-) TimerEvent: {}
+[30.845470] (-) TimerEvent: {}
+[30.945937] (-) TimerEvent: {}
+[31.046354] (-) TimerEvent: {}
+[31.146941] (-) TimerEvent: {}
+[31.247375] (-) TimerEvent: {}
+[31.347815] (-) TimerEvent: {}
+[31.448297] (-) TimerEvent: {}
+[31.548758] (-) TimerEvent: {}
+[31.649193] (-) TimerEvent: {}
+[31.749737] (-) TimerEvent: {}
+[31.850227] (-) TimerEvent: {}
+[31.950737] (-) TimerEvent: {}
+[32.051228] (-) TimerEvent: {}
+[32.151746] (-) TimerEvent: {}
+[32.252228] (-) TimerEvent: {}
+[32.352761] (-) TimerEvent: {}
+[32.453260] (-) TimerEvent: {}
+[32.553760] (-) TimerEvent: {}
+[32.654263] (-) TimerEvent: {}
+[32.754744] (-) TimerEvent: {}
+[32.855241] (-) TimerEvent: {}
+[32.955757] (-) TimerEvent: {}
+[33.056241] (-) TimerEvent: {}
+[33.156738] (-) TimerEvent: {}
+[33.257213] (-) TimerEvent: {}
+[33.357659] (-) TimerEvent: {}
+[33.458151] (-) TimerEvent: {}
+[33.558620] (-) TimerEvent: {}
+[33.659053] (-) TimerEvent: {}
+[33.759549] (-) TimerEvent: {}
+[33.860002] (-) TimerEvent: {}
+[33.960509] (-) TimerEvent: {}
+[34.061005] (-) TimerEvent: {}
+[34.161481] (-) TimerEvent: {}
+[34.261925] (-) TimerEvent: {}
+[34.362401] (-) TimerEvent: {}
+[34.462884] (-) TimerEvent: {}
+[34.563338] (-) TimerEvent: {}
+[34.663831] (-) TimerEvent: {}
+[34.764294] (-) TimerEvent: {}
+[34.864731] (-) TimerEvent: {}
+[34.965212] (-) TimerEvent: {}
+[35.065714] (-) TimerEvent: {}
+[35.166194] (-) TimerEvent: {}
+[35.266708] (-) TimerEvent: {}
+[35.367284] (-) TimerEvent: {}
+[35.467750] (-) TimerEvent: {}
+[35.568245] (-) TimerEvent: {}
+[35.668740] (-) TimerEvent: {}
+[35.769208] (-) TimerEvent: {}
+[35.869726] (-) TimerEvent: {}
+[35.970228] (-) TimerEvent: {}
+[36.070705] (-) TimerEvent: {}
+[36.171179] (-) TimerEvent: {}
+[36.180338] (auto_dock) StdoutLine: {'line': b'[100%] Built target dock_test\n'}
+[36.201744] (auto_dock) CommandEnded: {'returncode': 0}
+[36.203264] (auto_dock) JobProgress: {'identifier': 'auto_dock', 'progress': 'install'}
+[36.220643] (auto_dock) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tayya/Nav2_Dock_Robot/build/auto_dock'], 'cwd': '/home/tayya/Nav2_Dock_Robot/build/auto_dock', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1360'), ('SYSTEMD_EXEC_PID', '1703'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2220'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/Nav2_Dock_Robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:5120'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1494,unix/Asus-Ubuntu:/tmp/.ICE-unix/1494'), ('INVOCATION_ID', 'f2f1c3094ec44c51bb34b94cf465869c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OEK0Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/Nav2_Dock_Robot/install/auto_dock:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:25df0869-317f-487b-8c23-fc2d35136305'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/Nav2_Dock_Robot/build/auto_dock'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/Nav2_Dock_Robot/install/auto_dock:/opt/ros/humble')]), 'shell': False}
+[36.234313] (auto_dock) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.234812] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch\n'}
+[36.235253] (auto_dock) StdoutLine: {'line': b'-- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch/dock_test.launch.py\n'}
+[36.235428] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params\n'}
+[36.235571] (auto_dock) StdoutLine: {'line': b'-- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_server.yaml\n'}
+[36.235739] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_database.yaml\n'}
+[36.235976] (auto_dock) StdoutLine: {'line': b'-- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/auto_dock/test.py\n'}
+[36.236111] (auto_dock) StdoutLine: {'line': b'-- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/auto_dock/dock_test\n'}
+[36.236556] (auto_dock) StdoutLine: {'line': b'-- Set runtime path of "/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/auto_dock/dock_test" to ""\n'}
+[36.236801] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/package_run_dependencies/auto_dock\n'}
+[36.237008] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/parent_prefix_path/auto_dock\n'}
+[36.237142] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/ament_prefix_path.sh\n'}
+[36.237277] (auto_dock) StdoutLine: {'line': b'-- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/ament_prefix_path.dsv\n'}
+[36.237470] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/path.sh\n'}
+[36.237722] (auto_dock) StdoutLine: {'line': b'-- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/environment/path.dsv\n'}
+[36.237882] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.bash\n'}
+[36.238085] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.sh\n'}
+[36.238217] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.zsh\n'}
+[36.238399] (auto_dock) StdoutLine: {'line': b'-- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/local_setup.dsv\n'}
+[36.238585] (auto_dock) StdoutLine: {'line': b'-- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.dsv\n'}
+[36.238883] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/packages/auto_dock\n'}
+[36.239030] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/cmake/auto_dockConfig.cmake\n'}
+[36.239150] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/cmake/auto_dockConfig-version.cmake\n'}
+[36.239268] (auto_dock) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.xml\n'}
+[36.241480] (auto_dock) CommandEnded: {'returncode': 0}
+[36.272557] (-) TimerEvent: {}
+[36.289297] (auto_dock) JobEnded: {'identifier': 'auto_dock', 'rc': 0}
+[36.290688] (-) EventReactorShutdown: {}

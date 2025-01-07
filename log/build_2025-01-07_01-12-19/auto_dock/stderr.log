@@ -1,0 +1,24 @@
+[01m[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:33:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Future[m[K’ has not been declared
+   33 |     void callback([01;31m[Krclcpp[m[K::Future<std_srvs::srv::Trigger::Response>::SharedPtr future)
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:33:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   33 |     void callback(rclcpp::Future[01;31m[K<[m[Kstd_srvs::srv::Trigger::Response>::SharedPtr future)
+      |                                 [01;31m[K^[m[K
+[01m[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:[m[K In member function ‘[01m[Kvoid DockServerTestNode::send_test_request()[m[K’:
+[01m[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:28:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<std_srvs::srv::Trigger>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<std_srvs::srv::Trigger>[m[K’} has no member named ‘[01m[Kasync_call[m[K’
+   28 |         auto future = client_->[01;31m[Kasync_call[m[K(request);
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:[m[K In member function ‘[01m[Kvoid DockServerTestNode::callback(int)[m[K’:
+[01m[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:36:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuture[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::future[m[K’?
+   36 |             auto response = [01;31m[Kfuture[m[K->get();
+      |                             [01;31m[K^~~~~~[m[K
+      |                             [32m[Kstd::future[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:1[m[K:
+[01m[K/usr/include/c++/11/future:124:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::future[m[K’ declared here
+  124 |     class [01;36m[Kfuture[m[K;
+      |           [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dock_test.dir/build.make:76: CMakeFiles/dock_test.dir/src/dock_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dock_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

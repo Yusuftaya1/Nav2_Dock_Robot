@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.002536] (auto_dock) JobQueued: {'identifier': 'auto_dock', 'dependencies': OrderedDict()}
+[0.002704] (auto_dock) JobStarted: {'identifier': 'auto_dock'}
+[0.024371] (auto_dock) JobProgress: {'identifier': 'auto_dock', 'progress': 'cmake'}
+[0.025803] (auto_dock) JobProgress: {'identifier': 'auto_dock', 'progress': 'build'}
+[0.027333] (auto_dock) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tayya/Nav2_Dock_Robot/build/auto_dock', '--', '-j8', '-l8'], 'cwd': '/home/tayya/Nav2_Dock_Robot/build/auto_dock', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1360'), ('SYSTEMD_EXEC_PID', '1703'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2220'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/Nav2_Dock_Robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:5120'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1494,unix/Asus-Ubuntu:/tmp/.ICE-unix/1494'), ('INVOCATION_ID', 'f2f1c3094ec44c51bb34b94cf465869c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OEK0Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/Nav2_Dock_Robot/install/auto_dock:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:25df0869-317f-487b-8c23-fc2d35136305'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/Nav2_Dock_Robot/build/auto_dock'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/Nav2_Dock_Robot/install/auto_dock:/opt/ros/humble')]), 'shell': False}
+[0.099215] (-) TimerEvent: {}
+[0.146993] (auto_dock) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dock_test.dir/src/dock_test.cpp.o\x1b[0m\n'}
+[0.199367] (-) TimerEvent: {}
+[0.299927] (-) TimerEvent: {}
+[0.400417] (-) TimerEvent: {}
+[0.501064] (-) TimerEvent: {}
+[0.601563] (-) TimerEvent: {}
+[0.702048] (-) TimerEvent: {}
+[0.802516] (-) TimerEvent: {}
+[0.903005] (-) TimerEvent: {}
+[1.003449] (-) TimerEvent: {}
+[1.104041] (-) TimerEvent: {}
+[1.204537] (-) TimerEvent: {}
+[1.305046] (-) TimerEvent: {}
+[1.405500] (-) TimerEvent: {}
+[1.505955] (-) TimerEvent: {}
+[1.606487] (-) TimerEvent: {}
+[1.707062] (-) TimerEvent: {}
+[1.807533] (-) TimerEvent: {}
+[1.908034] (-) TimerEvent: {}
+[2.008543] (-) TimerEvent: {}
+[2.109115] (-) TimerEvent: {}
+[2.209578] (-) TimerEvent: {}
+[2.310038] (-) TimerEvent: {}
+[2.410522] (-) TimerEvent: {}
+[2.511089] (-) TimerEvent: {}
+[2.611604] (-) TimerEvent: {}
+[2.712227] (-) TimerEvent: {}
+[2.812729] (-) TimerEvent: {}
+[2.913237] (-) TimerEvent: {}
+[3.013810] (-) TimerEvent: {}
+[3.114281] (-) TimerEvent: {}
+[3.214884] (-) TimerEvent: {}
+[3.315480] (-) TimerEvent: {}
+[3.416026] (-) TimerEvent: {}
+[3.516566] (-) TimerEvent: {}
+[3.617205] (-) TimerEvent: {}
+[3.717747] (-) TimerEvent: {}
+[3.818264] (-) TimerEvent: {}
+[3.918781] (-) TimerEvent: {}
+[4.019248] (-) TimerEvent: {}
+[4.119741] (-) TimerEvent: {}
+[4.220216] (-) TimerEvent: {}
+[4.320715] (-) TimerEvent: {}
+[4.421257] (-) TimerEvent: {}
+[4.521777] (-) TimerEvent: {}
+[4.622342] (-) TimerEvent: {}
+[4.722832] (-) TimerEvent: {}
+[4.823364] (-) TimerEvent: {}
+[4.923981] (-) TimerEvent: {}
+[5.024585] (-) TimerEvent: {}
+[5.125082] (-) TimerEvent: {}
+[5.225539] (-) TimerEvent: {}
+[5.326022] (-) TimerEvent: {}
+[5.426621] (-) TimerEvent: {}
+[5.527227] (-) TimerEvent: {}
+[5.627887] (-) TimerEvent: {}
+[5.728512] (-) TimerEvent: {}
+[5.829304] (-) TimerEvent: {}
+[5.929948] (-) TimerEvent: {}
+[6.030610] (-) TimerEvent: {}
+[6.131262] (-) TimerEvent: {}
+[6.231754] (-) TimerEvent: {}
+[6.332296] (-) TimerEvent: {}
+[6.395498] (auto_dock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:33:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Future\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.396179] (auto_dock) StderrLine: {'line': b'   33 |     void callback(\x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Future<std_srvs::srv::Trigger::Response>::SharedPtr future)\n'}
+[6.396495] (auto_dock) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.396803] (auto_dock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:33:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.397107] (auto_dock) StderrLine: {'line': b'   33 |     void callback(rclcpp::Future\x1b[01;31m\x1b[K<\x1b[m\x1b[Kstd_srvs::srv::Trigger::Response>::SharedPtr future)\n'}
+[6.397421] (auto_dock) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.432534] (-) TimerEvent: {}
+[6.533171] (-) TimerEvent: {}
+[6.575414] (auto_dock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DockServerTestNode::send_test_request()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.575859] (auto_dock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:28:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp::Client<std_srvs::srv::Trigger>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Client<std_srvs::srv::Trigger>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kasync_call\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.576116] (auto_dock) StderrLine: {'line': b'   28 |         auto future = client_->\x1b[01;31m\x1b[Kasync_call\x1b[m\x1b[K(request);\n'}
+[6.576292] (auto_dock) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.588639] (auto_dock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DockServerTestNode::callback(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.589091] (auto_dock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:36:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::future\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.589392] (auto_dock) StderrLine: {'line': b'   36 |             auto response = \x1b[01;31m\x1b[Kfuture\x1b[m\x1b[K->get();\n'}
+[6.589647] (auto_dock) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.589968] (auto_dock) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kstd::future\x1b[m\x1b[K\n'}
+[6.590228] (auto_dock) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.590473] (auto_dock) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.590752] (auto_dock) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/dock_test.cpp:1\x1b[m\x1b[K:\n'}
+[6.590956] (auto_dock) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/future:124:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::future\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[6.591106] (auto_dock) StderrLine: {'line': b'  124 |     class \x1b[01;36m\x1b[Kfuture\x1b[m\x1b[K;\n'}
+[6.591249] (auto_dock) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.633320] (-) TimerEvent: {}
+[6.733823] (-) TimerEvent: {}
+[6.834307] (-) TimerEvent: {}
+[6.934868] (-) TimerEvent: {}
+[7.035429] (-) TimerEvent: {}
+[7.136038] (-) TimerEvent: {}
+[7.236588] (-) TimerEvent: {}
+[7.337155] (-) TimerEvent: {}
+[7.437887] (-) TimerEvent: {}
+[7.538477] (-) TimerEvent: {}
+[7.639000] (-) TimerEvent: {}
+[7.739571] (-) TimerEvent: {}
+[7.840119] (-) TimerEvent: {}
+[7.940593] (-) TimerEvent: {}
+[8.041144] (-) TimerEvent: {}
+[8.141633] (-) TimerEvent: {}
+[8.242335] (-) TimerEvent: {}
+[8.305815] (auto_dock) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dock_test.dir/build.make:76: CMakeFiles/dock_test.dir/src/dock_test.cpp.o] Error 1\n'}
+[8.306378] (auto_dock) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dock_test.dir/all] Error 2\n'}
+[8.306870] (auto_dock) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.311572] (auto_dock) CommandEnded: {'returncode': 2}
+[8.338527] (auto_dock) JobEnded: {'identifier': 'auto_dock', 'rc': 2}
+[8.342467] (-) TimerEvent: {}
+[8.349379] (-) EventReactorShutdown: {}

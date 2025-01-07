@@ -13,8 +13,8 @@ docking_server:
     dock_prestaging_tolerance: 0.5
 
     # Types of docks
-    dock_plugins: ['Saha_charge_test_dock_plugin']
-    Saha_charge_test_dock_plugin:
+    dock_plugins: ['nova_carter_dock']
+    nova_carter_dock:
       plugin: 'opennav_docking::SimpleChargingDock'  # Also 'opennav_docking::SimpleNonChargingDock'
       docking_threshold: 0.05
       staging_x_offset: -0.7
@@ -30,14 +30,15 @@ docking_server:
       external_detection_rotation_yaw: 0.0
       filter_coef: 0.1
 
-    docks: ['Saha_charge_test_dock']
-    Saha_charge_test_dock:
-      type: 'Saha_charge_test_dock_plugin'
+    # Dock instances
+    docks: ['home_dock']
+    home_dock:
+      type: 'nova_carter_dock'
       frame: map
-      pose: [2.0, 2.0, 0.0]
+      pose: [0.0, 0.0, 0.0]
       id: 'c67f50cb-e152-4720-85cc-5eb20bd85ce8'
 
-    controller: 
+    controller:
       k_phi: 3.0
       k_delta: 2.0
       v_linear_min: 0.15

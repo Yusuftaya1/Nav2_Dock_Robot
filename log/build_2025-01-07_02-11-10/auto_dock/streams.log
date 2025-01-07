@@ -1,0 +1,9 @@
+[0.029s] Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
+[0.070s] [31mCMake Error at CMakeLists.txt:34:
+[0.070s]   Parse error.  Expected a command name, got quoted argument with text "".
+[0.071s] 
+[0.071s] [0m
+[0.071s] -- Configuring incomplete, errors occurred!
+[0.071s] See also "/home/tayya/Nav2_Dock_Robot/build/auto_dock/CMakeFiles/CMakeOutput.log".
+[0.073s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.078s] Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
