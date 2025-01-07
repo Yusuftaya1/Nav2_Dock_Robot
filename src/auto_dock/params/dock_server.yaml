@@ -32,12 +32,18 @@ docking_server:
 
     #dock_database: /home/tayya/Nav2_Dock_Robot/src/auto_dock/params/dock_database.yaml
 
-    docks: ['test_dock']
+    docks: ['test_dock','test_dock2']
     test_dock:
       type: 'Saha_test'
       frame: map
       pose: [1.0, 2.0, 0.0]
       id: 'c67f50cb-e152-4720-85cc-5eb20bd85ce8'
+    
+    test_dock2:
+      type: 'Saha_test'
+      frame: map
+      pose: [1.0, 3.0, 0.0]
+      id: 'c67y00cb-c367-4380-897vv-5eb15gd85ce8'
 
     controller:
       k_phi: 3.0

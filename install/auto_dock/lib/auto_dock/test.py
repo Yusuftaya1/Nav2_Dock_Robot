@@ -20,10 +20,6 @@ class RobotController(Node):
         goal_msg.dock_id = dock_id
         goal_msg.dock_pose.header.stamp     = self.get_clock().now().to_msg()
         goal_msg.dock_pose.header.frame_id  = 'odom'
-        goal_msg.dock_pose.pose.position.x  = 1.0
-        goal_msg.dock_pose.pose.position.x  = 2.0
-        goal_msg.dock_pose.pose.position.z  = 0.0
-        goal_msg.dock_pose.pose.orientation.z = 0.0
 
         self.get_logger().info(f"Docking at ID: {dock_id}...")
         send_goal_future = self.docking_client.send_goal_async(goal_msg, feedback_callback=self._feedback_callback)
@@ -39,7 +35,8 @@ class RobotController(Node):
 
         result = self.result_future.result().result
         if result:
-            self.get_logger().info("Docking completed successfully!")
+            result_str = f"Success: {result.success}, Error Code: {result.error_code}, Retries: {result.num_retries}"
+            self.get_logger().info(result_str)
         else:
             self.get_logger().error("Docking failed!")
         return result
