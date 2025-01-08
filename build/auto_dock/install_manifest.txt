@@ -1,7 +1,7 @@
 /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch/dock_test.launch.py
 /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_server.yaml
 /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_database.yaml
-/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/auto_dock/test.py
+/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/auto_dock/demo.py
 /home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/auto_dock/dock_test
 /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/package_run_dependencies/auto_dock
 /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/ament_index/resource_index/parent_prefix_path/auto_dock

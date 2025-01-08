@@ -16,11 +16,12 @@ class DockingTester(Node):
     def dockRobot(self,dock_id = ""):
         """Send a `DockRobot` action request."""
         print("Waiting for 'DockRobot' action server")
-        while not self.docking_client.wait_for_server(timeout_sec=1.0):
+        while not self.docking_client.wait_for_server(timeout_sec=3.0):
             print('"DockRobot" action server not available, waiting...')
 
         goal_msg = DockRobot.Goal()
-        goal_msg.use_dock_id = True
+        goal_msg.navigate_to_staging_pose = False
+        goal_msg.use_dock_id = True # database kullanılırsa TRUE yapılabilir
         goal_msg.dock_id = dock_id 
 
         print('Docking to İD: ' + str(dock_id) + '...')

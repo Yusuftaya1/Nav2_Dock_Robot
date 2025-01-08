@@ -1,6 +1,12 @@
 docks:
-  test_home_dock:
-    type: "nova_carter_dock"
-    frame: "map"
-    pose: [2.0, 2.0, 0.0]
-    id: 'c67f50cb-e152-4720-85cc-5eb20bd85ce8'
+    test_dock1:
+      type: 'Saha_test_dock'
+      frame: map
+      pose: [2.0, 4.0, 0.0]
+      id: 'c67f50cb-e152-4720-85cc-5eb20bd85ce8'
+    
+    test_dock2:
+      type: 'Saha_test_dock'
+      frame: map
+      pose: [3.0, 3.0, 0.0]
+      id: 'c67y00cb-c367-4380-897vv-5eb15gd85ce8'

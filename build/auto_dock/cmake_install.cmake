@@ -50,7 +50,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/auto_dock" TYPE PROGRAM FILES "/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/test.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/auto_dock" TYPE PROGRAM FILES "/home/tayya/Nav2_Dock_Robot/src/auto_dock/src/demo.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

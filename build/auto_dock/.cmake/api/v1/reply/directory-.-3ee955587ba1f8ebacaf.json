@@ -252,7 +252,7 @@
 			"destination" : "lib/auto_dock",
 			"paths" : 
 			[
-				"src/test.py"
+				"src/demo.py"
 			],
 			"type" : "file"
 		},

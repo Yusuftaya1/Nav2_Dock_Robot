@@ -28,7 +28,7 @@ install(
 )
 
 install(PROGRAMS
-  src/test.py
+  src/demo.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
