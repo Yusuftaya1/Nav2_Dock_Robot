@@ -46,6 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/auto_dock/" TYPE DIRECTORY FILES
     "/home/tayya/Nav2_Dock_Robot/src/auto_dock/launch"
     "/home/tayya/Nav2_Dock_Robot/src/auto_dock/params"
+    "/home/tayya/Nav2_Dock_Robot/src/auto_dock/map"
     )
 endif()
 

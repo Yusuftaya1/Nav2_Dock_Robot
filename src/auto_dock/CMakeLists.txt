@@ -23,7 +23,7 @@ ament_target_dependencies(dock_test
 )
 
 install(
-  DIRECTORY launch params
+  DIRECTORY launch params map
   DESTINATION share/${PROJECT_NAME}/
 )
 
