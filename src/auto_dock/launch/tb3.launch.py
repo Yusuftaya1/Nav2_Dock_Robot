@@ -19,7 +19,7 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'map',
             default_value=map_file,
-            description='/home/tayya/Nav2_Dock_Robot/src/auto_dock/map/my_map.yaml'
+            description='path to map'
         ),
 
         IncludeLaunchDescription(
