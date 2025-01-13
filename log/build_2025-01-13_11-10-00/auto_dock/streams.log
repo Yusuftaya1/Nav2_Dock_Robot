@@ -1,0 +1,17 @@
+[0.023s] Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
+[0.079s] [100%] Built target dock_test
+[0.091s] Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
+[0.101s] Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/Nav2_Dock_Robot/build/auto_dock
+[0.109s] -- Install configuration: ""
+[0.109s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch
+[0.109s] -- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch/tb3.launch.py
+[0.109s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch/dock_test.launch.py
+[0.110s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params
+[0.110s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_server.yaml
+[0.110s] -- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_database.yaml
+[0.110s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.111s]   file INSTALL cannot find "/home/tayya/Nav2_Dock_Robot/src/auto_dock/map":
+[0.111s]   No such file or directory.
+[0.111s] 
+[0.111s] [0m
+[0.113s] Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/Nav2_Dock_Robot/build/auto_dock

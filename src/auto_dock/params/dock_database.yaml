@@ -8,7 +8,7 @@ docks:
     test_dock1:
       type: 'Saha_test_dock'
       frame: map
-      pose: [1.0, 1.0, 0.0]
+      pose: [2.0, 0.5, 0.0]
       id: 'c67f50cb-e152-4720-85cc-5eb20bd85ce8'
     
     test_dock2:

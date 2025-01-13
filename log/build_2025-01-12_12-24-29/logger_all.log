@@ -1,0 +1,141 @@
+[0.553s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.554s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79e53f84abf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79e53f84a6b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79e53f84a6b0>>, mixin_verb=('build',))
+[1.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.565s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tayya/Nav2_Dock_Robot'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_dock) by extensions ['ignore', 'ignore_ament_install']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_dock) by extension 'ignore'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_dock) by extension 'ignore_ament_install'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_dock) by extensions ['colcon_pkg']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_dock) by extension 'colcon_pkg'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_dock) by extensions ['colcon_meta']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_dock) by extension 'colcon_meta'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_dock) by extensions ['ros']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_dock) by extension 'ros'
+[1.681s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_dock' with type 'ros.ament_cmake' and name 'auto_dock'
+[1.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.857s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tayya/Nav2_Dock_Robot/install
+[1.868s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 391 installed packages in /opt/ros/humble
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'auto_dock' build argument 'cmake_args' from command line to 'None'
+[2.205s] Level 5:colcon.colcon_core.verb:set package 'auto_dock' build argument 'cmake_target' from command line to 'None'
+[2.206s] Level 5:colcon.colcon_core.verb:set package 'auto_dock' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.206s] Level 5:colcon.colcon_core.verb:set package 'auto_dock' build argument 'cmake_clean_cache' from command line to 'False'
+[2.206s] Level 5:colcon.colcon_core.verb:set package 'auto_dock' build argument 'cmake_clean_first' from command line to 'False'
+[2.206s] Level 5:colcon.colcon_core.verb:set package 'auto_dock' build argument 'cmake_force_configure' from command line to 'False'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'auto_dock' build argument 'ament_cmake_args' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'auto_dock' build argument 'catkin_cmake_args' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'auto_dock' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.207s] DEBUG:colcon.colcon_core.verb:Building package 'auto_dock' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tayya/Nav2_Dock_Robot/build/auto_dock', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tayya/Nav2_Dock_Robot/install/auto_dock', 'merge_install': False, 'path': '/home/tayya/Nav2_Dock_Robot/src/auto_dock', 'symlink_install': False, 'test_result_base': None}
+[2.208s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.215s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tayya/Nav2_Dock_Robot/src/auto_dock' with build type 'ament_cmake'
+[2.217s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tayya/Nav2_Dock_Robot/src/auto_dock'
+[2.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
+[2.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/Nav2_Dock_Robot/build/auto_dock -- -j8 -l8
+[2.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/Nav2_Dock_Robot/build/auto_dock
+[2.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_dock)
+[2.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tayya/Nav2_Dock_Robot/build/auto_dock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/Nav2_Dock_Robot/build/auto_dock
+[2.702s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock' for CMake module files
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock' for CMake config files
+[2.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_dock', 'cmake_prefix_path')
+[2.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/hook/cmake_prefix_path.ps1'
+[2.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/hook/cmake_prefix_path.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/hook/cmake_prefix_path.sh'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib'
+[2.720s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/bin'
+[2.720s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/pkgconfig/auto_dock.pc'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/python3.10/site-packages'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/bin'
+[2.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.dsv'
+[2.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.sh'
+[2.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.bash'
+[2.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.zsh'
+[2.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/colcon-core/packages/auto_dock)
+[2.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_dock)
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock' for CMake module files
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock' for CMake config files
+[2.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_dock', 'cmake_prefix_path')
+[2.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/hook/cmake_prefix_path.ps1'
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/hook/cmake_prefix_path.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/hook/cmake_prefix_path.sh'
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib'
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/bin'
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/pkgconfig/auto_dock.pc'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/lib/python3.10/site-packages'
+[2.767s] Level 1:colcon.colcon_core.environment:checking '/home/tayya/Nav2_Dock_Robot/install/auto_dock/bin'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.ps1'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.dsv'
+[2.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.sh'
+[2.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.bash'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock/package.zsh'
+[2.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tayya/Nav2_Dock_Robot/install/auto_dock/share/colcon-core/packages/auto_dock)
+[2.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.788s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.824s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.827s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.913s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.916s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tayya/Nav2_Dock_Robot/install/local_setup.ps1'
+[2.921s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tayya/Nav2_Dock_Robot/install/_local_setup_util_ps1.py'
+[2.929s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tayya/Nav2_Dock_Robot/install/setup.ps1'
+[2.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tayya/Nav2_Dock_Robot/install/local_setup.sh'
+[2.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tayya/Nav2_Dock_Robot/install/_local_setup_util_sh.py'
+[2.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tayya/Nav2_Dock_Robot/install/setup.sh'
+[2.963s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tayya/Nav2_Dock_Robot/install/local_setup.bash'
+[2.967s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tayya/Nav2_Dock_Robot/install/setup.bash'
+[2.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tayya/Nav2_Dock_Robot/install/local_setup.zsh'
+[2.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tayya/Nav2_Dock_Robot/install/setup.zsh'

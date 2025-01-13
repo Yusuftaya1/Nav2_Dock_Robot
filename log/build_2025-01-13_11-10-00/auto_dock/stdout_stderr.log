@@ -1,0 +1,13 @@
+[100%] Built target dock_test
+-- Install configuration: ""
+-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch
+-- Installing: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch/tb3.launch.py
+-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//launch/dock_test.launch.py
+-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params
+-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_server.yaml
+-- Up-to-date: /home/tayya/Nav2_Dock_Robot/install/auto_dock/share/auto_dock//params/dock_database.yaml
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/tayya/Nav2_Dock_Robot/src/auto_dock/map":
+  No such file or directory.
+
+[0m
