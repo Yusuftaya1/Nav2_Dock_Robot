@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 import os
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription ,DeclareLaunchArgument
@@ -9,14 +10,18 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    default_map_path = os.path.join(get_package_share_directory('auto_dock'),'map','my_map.yaml')
+    package_dir = get_package_share_directory("auto_dock")
+    package_dir_nav2 = get_package_share_directory("nav2_bringup")
 
-    DeclareLaunchArgument('map',default_value=default_map_path, description='Full path to map file to load'),
-    
+    use_sim_time = LaunchConfiguration("use_sim_time", default=True)
+
+    nav2_map = os.path.join(package_dir, "map", "my_map.yaml")
+    nav2_params = os.path.join(package_dir_nav2, "params", "nav2_params.yaml")
+
     turtlebot3_world = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             PathJoinSubstitution([
-                FindPackageShare('turtlebot3_gazebo'),
+                get_package_share_directory('turtlebot3_gazebo'),
                 'launch',
                 'turtlebot3_world.launch.py'
             ])
@@ -25,15 +30,17 @@ def generate_launch_description():
     
     nav2_bringup = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            PathJoinSubstitution([
-                FindPackageShare('nav2_bringup'),'launch','bringup_launch.py'])
+            os.path.join(
+                get_package_share_directory("nav2_bringup"),
+                "launch",
+                "bringup_launch.py",
+            )
         ),
-        
-        launch_arguments={
-            'use_sim_time': 'True',
-            'autostart': 'True',
-            'map': LaunchConfiguration('map')
-        }.items()
+        launch_arguments=[
+            ("map", nav2_map),
+            ("use_sim_time", use_sim_time),
+            ("params_file", nav2_params),
+        ],
     )
 
     rviz2_node = Node(
@@ -51,7 +58,6 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        DeclareLaunchArgument('map',default_value=default_map_path, description='Full path to map file to load'),
         turtlebot3_world,
         nav2_bringup,
         rviz2_node,
