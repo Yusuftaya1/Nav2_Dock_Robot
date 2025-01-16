@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 import os
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription ,DeclareLaunchArgument
+from launch.actions import IncludeLaunchDescription
 from launch.substitutions import PathJoinSubstitution
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare 
@@ -17,8 +17,6 @@ def generate_launch_description():
 
     nav2_map = os.path.join(package_dir, "map", "my_map.yaml")
     nav2_params = os.path.join(package_dir_nav2, "params", "nav2_params.yaml")
-
-
 
     turtlebot3_world = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -51,7 +49,7 @@ def generate_launch_description():
         arguments=[
             '-d',
             PathJoinSubstitution([
-                FindPackageShare('nav2_bringup'),
+                get_package_share_directory('nav2_bringup'),
                 'rviz',
                 'nav2_default_view.rviz'
             ])

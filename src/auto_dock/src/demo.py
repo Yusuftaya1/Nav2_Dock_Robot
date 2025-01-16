@@ -22,6 +22,7 @@ class DockingTester(Node):
 
         goal_msg = DockRobot.Goal()
         goal_msg.use_dock_id = True
+        goal_msg.navigate_to_staging_pose = False
         goal_msg.dock_id = dock_id 
 
         print('Docking to ID: ' + str(dock_id) + '...')
@@ -83,16 +84,14 @@ class DockingTester(Node):
 def main():
     rclpy.init()
     tester = DockingTester()
-    dock_id = 'test_dock1'
-    dock_type = 'Saha_test_dock'
+    dock_idd = 'loading_dock'
+    dock_type = 'sattva_apl_dock'
 
-    # Docking işlemi
-    if tester.dockRobot(dock_id=dock_id):
-        # Docking başarılı ise 4 saniye bekle
-        print("Waiting for 4 seconds before undocking...")
-        time.sleep(4)
+    tester.dockRobot(dock_id=dock_idd)
+    #print("Waiting for 4 seconds before undocking...")
+    #time.sleep(4)
 
-        tester.undockRobot(dock_type=dock_type)
+    #tester.undockRobot(dock_type=dock_type)
 
     tester.destroy_node()
     rclpy.shutdown()

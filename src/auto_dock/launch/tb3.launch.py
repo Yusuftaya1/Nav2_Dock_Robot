@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 import os
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription ,DeclareLaunchArgument
+from launch.actions import IncludeLaunchDescription
 from launch.substitutions import PathJoinSubstitution
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare 
@@ -49,7 +49,7 @@ def generate_launch_description():
         arguments=[
             '-d',
             PathJoinSubstitution([
-                FindPackageShare('nav2_bringup'),
+                get_package_share_directory('nav2_bringup'),
                 'rviz',
                 'nav2_default_view.rviz'
             ])
