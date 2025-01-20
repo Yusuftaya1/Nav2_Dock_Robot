@@ -175,7 +175,7 @@ def main():
         dock_pose = PoseStamped()
         dock_pose.header.stamp = tester.get_clock().now().to_msg()
         dock_pose.header.frame_id = "base_link"
-        dock_pose.pose.position.x = 0.7
+        dock_pose.pose.position.x = 2.0
         dock_pose.pose.position.y = 0.0
         tester.dockRobot(dock_pose)
 
@@ -204,7 +204,7 @@ def main():
         time.sleep(3)
 
         # Undock from this dock
-        dock_type = "nova_carter_dock"
+        dock_type = "sattva_apl_dock"
         tester.undockRobot(dock_type)
 
         i = 0

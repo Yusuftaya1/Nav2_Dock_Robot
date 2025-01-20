@@ -29,7 +29,7 @@ class DockingTester(Node):
         send_goal_future = self.docking_client.send_goal_async(goal_msg, self._feedbackCallback)
         rclpy.spin_until_future_complete(self, send_goal_future)
         self.goal_handle = send_goal_future.result()
-
+        
         if not self.goal_handle.accepted:
             print('Docking request was rejected!')
             return False
@@ -43,7 +43,7 @@ class DockingTester(Node):
             print("Docking completed successfully.")
             return True
         else:
-            print("Docking failed.")
+            print("Docking failed (result).")
             return False
 
     def undockRobot(self, dock_type):
@@ -79,7 +79,7 @@ class DockingTester(Node):
     def _feedbackCallback(self, msg):
         self.feedback = msg.feedback
         print("Feedback received: ", self.feedback)
-        return
+
 
 def main():
     rclpy.init()
